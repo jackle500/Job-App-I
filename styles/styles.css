@@ -1,0 +1,23 @@
+a.btn-primary{
+    margin-top: 25px;
+    background: #a8ad97;
+    border: none;
+
+}
+a.btn-primary:hover{
+    background: #d4c8be;
+}
+
+
+div.col-md.header#header{
+    text-align: center;
+    justify-content: center;
+}
+
+img{
+    border-radius: 25px ;
+}
+p{
+    padding-top: 2rem ;
+}
+
