@@ -24,3 +24,7 @@ p {
 body{
     background-color: #f9f4ef;
 }
+
+. col fluid-container h2{
+    text-align: center;
+}
