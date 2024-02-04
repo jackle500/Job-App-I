@@ -14,7 +14,6 @@
 
 //define a default route
     $f3->route('GET /', function(){
-        //echo"My Diner";
 
         //Display view page
         $view = new Template();
