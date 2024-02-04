@@ -18,7 +18,7 @@
 
         //Display view page
         $view = new Template();
-        echo $view->render('views/home.html');
+        echo $view->render('views/info.html');
     });
     //run fat-free
     $f3->run();
