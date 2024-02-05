@@ -1,20 +1,8 @@
 
 
-div.col-md.header#header {
-    text-align: center;
-    justify-content: center;
-}
-
-img {
-    border-radius: 25px;
-}
-
 p {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
-
-
-
 
 #notice{
     border: #a8ad97 solid 1px;

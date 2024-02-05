@@ -1,0 +1,24 @@
+body {
+    background-color: #f9f4ef;
+
+}
+/*Button*/
+a.btn-primary.apply {
+    background: #a8ad97;
+
+}
+
+a.btn-primary.apply:hover {
+    background: #d4c8be;
+}
+
+a.btn-block {
+    width: 100%;
+    margin-top: 50px;
+    background: #36d54f;
+    border: none;
+
+}
+.willing-to-relocate, .years-experience{
+    margin-top: 10px;
+}
