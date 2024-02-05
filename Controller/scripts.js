@@ -1,4 +1,10 @@
-
+<!--
+Huy Le
+Joo Application Version 2
+scripts.js
+This file handle all the storing information from personal, experience, mail HTML
+And display all the information being stored onto the summary.html
+-->
 // Function to save personal information to sessionStorage
 function savePersonalInformation() {
     const firstName = document.getElementById('inputFName').value;
