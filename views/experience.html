@@ -48,77 +48,82 @@
     <hr>
 
     <form action="/submit_form" method="post">
-    <div class="row">
-                <div class="col-sm-4 column col-lg-8" id="bio">
-                    <!--Biography-->
-                    <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
-                        <label for="biography">
-                            <h5>Biography</h5>
-                        </label>
-                        <textarea id="biography" name="biography" rows="10" class="w-100 h-100 rounded" placeholder="Write your biography here..."></textarea>
-                    </div>
-                    <!--Biography-->
+        <div class="row">
+            <div class="col-sm-4 column col-lg-8" id="bio">
+                <!--Biography-->
+                <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
+                    <label for="biography">
+                        <h5>Biography</h5>
+                    </label>
+                    <textarea class="w-100 h-100 rounded" id="biography" name="biography" placeholder="Write your biography here..."
+                              rows="10"></textarea>
                 </div>
-        <div class="col-sm-4 column col-lg-4">
-            <!--Github-->
-            <div class="ge-content ge-content-type-tinymce" id="" data-ge-content-type="tinymce">
+                <!--Biography-->
+            </div>
+            <div class="col-sm-4 column col-lg-4">
+                <!--Github-->
+                <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce" id="">
                     <label for="github"><h6>GitHub Link</h6>
                     </label>
-                    <input type="text" id="github" name="github" class="form-control rounded" placeholder="Enter Github URL">
+                    <input class="form-control rounded" id="github" name="github" placeholder="Enter Github URL"
+                           type="text">
                 </div>
-            <!--Github-->
+                <!--Github-->
 
-            <div class="row">
-                <div class="col-sm-4 column col-lg-12" id="year" >
-                    <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
-                        <div class="years-experience">
-                            <h6>Years Experience</h6>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" name="year"  class="form-check-input"  id="year1" value="option1">
-                                <label class="form-check-label" for="inlineCheckbox1">0-2</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" name="year"  class="form-check-input"  id="year2" value="option2">
-                                <label class="form-check-label" for="inlineCheckbox2">2-4</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" name="year"  class="form-check-input"  id="year3" value="option3">
-                                <label class="form-check-label" for="inlineCheckbox3">4+</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-6 column col-lg-12" id="relocate" style="">
-                    <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
-                        <div class="willing-to-relocate">
-
-                            <h6>Willing To Relocate</h6>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" name="relocate"  class="form-check-input"  id="inlineCheckbox1" value="option1">
-                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" name="relocate"  class="form-check-input"  id="inlineCheckbox2" value="option2">
-                                <label class="form-check-label" for="inlineCheckbox2">No</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" name="relocate"  class="form-check-input"  id="inlineCheckbox3" value="option3">
-                                <label class="form-check-label" for="inlineCheckbox3">Maybe</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-6 column col-lg-12" id="next" style="">
-                    <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
+                <div class="row">
+                    <div class="col-sm-4 column col-lg-12" id="year">
                         <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
-                            <a class="btn btn-primary btn-block btn2 next" href="mail.html">Next ></a>
+                            <div class="years-experience">
+                                <h6>Years Experience</h6>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="year1" name="year" type="radio" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">0-2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="year2" name="year" type="radio" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">2-4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="year3" name="year" type="radio" value="option3">
+                                    <label class="form-check-label" for="inlineCheckbox3">4+</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 column col-lg-12" id="relocate" style="">
+                        <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
+                            <div class="willing-to-relocate">
+
+                                <h6>Willing To Relocate</h6>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="inlineCheckbox1" name="relocate" type="radio"
+                                           value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="inlineCheckbox2" name="relocate" type="radio"
+                                           value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">No</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="inlineCheckbox3" name="relocate" type="radio"
+                                           value="option3">
+                                    <label class="form-check-label" for="inlineCheckbox3">Maybe</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 column col-lg-12" id="next" style="">
+                        <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
+                            <div class="ge-content ge-content-type-tinymce" data-ge-content-type="tinymce">
+                                <a class="btn btn-primary btn-block btn2 next" href="mail.html">Next ></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
     </form>
 
 </div>

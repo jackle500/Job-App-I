@@ -5,6 +5,7 @@ body {
 /*Button*/
 a.btn-primary.apply {
     background: #a8ad97;
+    border: none;
 
 }
 
